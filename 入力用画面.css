@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;500;700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+body{
+    height: 150vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.contact-form{
+    border: 1.5px solid #aaa;
+    padding: 50px 30px;
+}
+
+/*コメントはこちらの編集*/
+.title{
+    text-align: center;
+    font-size: 20px;
+    /*デカ字の下を20pxあける*/
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+form{
+    width: 460px;
+    margin: 0 auto;
+}
+
+/*名前とメールの編集*/
+
+.item{
+    /*はみ出た部分を隠す*/
+    overflow: hidden;
+    /*下側の余白をあける*/
+    margin-bottom: 20px;
+}
+
+.label{
+    /*ラベルを左側に寄せる*/
+    float: left;
+    margin-right: 10px;
+    width: 120px;
+    border-left: 3px;
+    padding-left: 8px;
+
+}
+
+.inputs{
+    float: left;
+    width: 300px;
+}
+
+input[type="text"],
+input[type="tell"],
+input[type="email"],
+input[type="address"],
+input[type="income"]
+{
+    border: solid 1px #aaa;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+
+}
+
+textarea{
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    padding: 10px;
+    height: 160px;
+    width: 300px;
+    font-size: 15px;
+}
+
+.button-area{
+    text-align: right;
+}
+
+input[type="submit"]{
+    text-align: right;
+    background-color: #c2704f;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 8px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 0 5px;
+    box-shadow: 1px 1px 3px black;
+    cursor: pointer;
+    margin-bottom: 10px;
+
+}
