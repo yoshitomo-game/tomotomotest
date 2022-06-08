@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="入力用画面.css">
+</head>
+<body>
+<script>
+function koshin(){
+    location.reload();
+}
+</script>
+
+    <div class="contact-form">
+
+        <p class="title">基幹システム入力フォーム</p>
+
+        <form action="" method="post">
+            <div class="button-area">
+                <input type="submit" onclick="koshin()" value="登録">
+
+            </div>
+
+
+            <div class="item">
+                <label class="label">お名前</label>
+                <input type="text" class="inputs" name="name" required>
+            </div>
+
+            <div class="item">
+                <label class="label">電話番号</label>
+                <input type="tell" class="inputs" name="tell" required >
+            </div>
+
+            <div class="item">
+                <label class="label">メールアドレス</label>
+                <input type="email" class="inputs" name="email" required >
+            </div>
+
+            <div class="item">
+                <label class="label">住所</label>
+                <input type="address" class="inputs" name="address" required >
+            </div>
+
+            <div class="item">
+                <label class="label">年収</label>
+                <input type="income" class="inputs" name="income" required >
+            </div>
+
+
+            <div class="item">
+                <label class="label">その他・備考欄</label>
+                <textarea class="inputs" ></textarea>
+            </div>
+
+
+            </div>
+
+        </form>
+    
+</body>
+</html>
